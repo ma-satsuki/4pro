@@ -32,7 +32,7 @@
         loader.setDRACOLoader(dracoLoader); // GLTFLoaderにDRACOLoaderのインスタンスを提供
 
         loader.load(
-            "ワンピース.gltf",
+            "path/to/ワンピース.gltf",
             function (gltf) {
                 scene.add(gltf.scene);
             },
